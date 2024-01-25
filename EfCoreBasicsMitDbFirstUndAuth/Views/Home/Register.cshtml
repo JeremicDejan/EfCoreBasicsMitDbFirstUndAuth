@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Registrieren";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form action="/Home/Register" method="post">
+    <input class="form-control" type="text" name="username" placeholder="Benutzername" />
+    <input class="form-control" type="password" name="password" placeholder="Passwort" />
+    <input class="form-control" type="password" name="passwordRepeat" placeholder="Passwort wiederholen" />
+    <button class="btn btn-primary">Registrieren</button>
+</form>
